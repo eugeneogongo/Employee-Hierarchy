@@ -1,8 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using System;
 using System.IO;
+using EmployeeHierarchy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EmployeeHierarchy.Tests
+namespace EmployeeHierarchyTests
 {
 
     [TestClass()]
