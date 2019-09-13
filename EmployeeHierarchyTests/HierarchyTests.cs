@@ -19,7 +19,7 @@ namespace EmployeeHierarchy.Tests
         }
 
         /// <summary>
-        /// Tests if the Employees are added to the graph with no subordinates
+        /// Tests if the Employees are added to the graph
         /// </summary>
         [TestMethod()]
         public void AddTest()
@@ -33,7 +33,7 @@ namespace EmployeeHierarchy.Tests
 
         /// <summary>
         /// Tests if Employee have subordinates added
-        /// Example is using Employee who has two subordinates
+        /// Example is using Employee2 who has two subordinates
         /// </summary>
         [TestMethod]
         public void SubOrdinate_Not_NULL()

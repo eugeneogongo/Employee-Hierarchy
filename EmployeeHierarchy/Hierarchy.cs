@@ -115,7 +115,7 @@ namespace EmployeeHierarchy
         }
         /// <summary>
         /// Given a senior staff calculate all the salary of junior staff below.
-        /// This method uses Depth Transveral as the algorithim to find all the junior staffs and their salary
+        /// This method uses Depth Transversal as the algorithim to find all the junior staffs and their salary
         /// </summary>
         /// <param name="root">Senior Staff ID</param>
         /// <returns>Salary</returns>
@@ -167,8 +167,8 @@ namespace EmployeeHierarchy
         /// <param name="employeeId">Junior Staff</param>
         public void Add(string boss, string employeeId)
         {
-            this.Add(boss);
-            this.Add(employeeId);
+            Add(boss);
+            Add(employeeId);
             _lstSubOrdinates[boss].Add(employeeId);
         }
         /// <summary>

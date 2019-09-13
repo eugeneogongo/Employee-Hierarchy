@@ -29,7 +29,7 @@ to a specified manager, plus the salary of the manager
 | employee contains negative Salary | test4.csv | The Graph should be Empty since one of the salary is negative | passed |
 | there is no manager | test5.csv | Graph should be empty since no manager or ceo | passed |
 
-
+# Class Diagram
 ![Class Digram](classDiagram.png)
 
 
