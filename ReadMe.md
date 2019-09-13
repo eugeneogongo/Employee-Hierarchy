@@ -14,7 +14,7 @@ from a manager is defined as the sum of the salaries of all the employees report
 to a specified manager, plus the salary of the manager
 
 # Solution
->The Algorithm used is **Direted Graphs**. The graph is represented using the >**Adjacency List representation**. The graph stores each employee's id with all the >ids of employees under him/her. 
+>The Algorithm used is **Direted Graphs**. The graph is represented using the **Adjacency List representation**. The graph stores each employee's id with all the ids of employees under him/her. 
 
 # Test Plan
 | Scenario | input | Expected | Result |
@@ -30,7 +30,7 @@ to a specified manager, plus the salary of the manager
 | there is no manager | test5.csv | Graph should be empty since no manager or ceo | passed |
 
 # Class Diagram
-![Class Digram](classDiagram.png)
+![Class Digram](ClassDiagram.png)
 
 
 
